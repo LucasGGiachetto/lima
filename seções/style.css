@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    background-color: darkslategray;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container .container2 {
+    width: 20%;
+    padding: 15px;
+}
+
+.container .container3 {
+    width: 50%;
+    padding: 15px;
+}
+
+.container .container3 nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    display: flex;
+}
+
+.container img {
+    width: 90px;
+    height: 90px;
+}
+
+.containerbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.containerbody img {
+    width: 100%;
+    height: auto;
+    /* Mantém a proporção da imagem */
+}
+
+.divibanner img {
+    width: 1500px;
+    padding: 0px;
+    height: auto;
+    position: relative;
+}
+
+.sb {
+    font-family: fantasy;
+    font-size: 24px;
+}
+
+.botao {
+    background-color: #23D399;
+    color: white;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    border-radius: 7px;
+    cursor: pointer;
+    position: absolute;
+    right: 300px;
+}
