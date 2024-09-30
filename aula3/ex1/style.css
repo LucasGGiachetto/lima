@@ -1,0 +1,20 @@
+input[type="submit"] {
+    padding: 7px 14px;
+    background-color: darkorange;
+    border-radius: 14px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(232, 188, 127);
+    color: aliceblue;
+    border-color: darkorange;
+}
+
+body {
+    padding: 6px;
+    margin: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}

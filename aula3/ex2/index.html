@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h2>
+    <form>
+        <label id="login"><strong>Login:</strong></label required>
+        <input type="text" id="login" name="login" required><br><br>
+        <label id="login"><strong>Senha:</strong></label>
+        <input type="password" id="senha" name="senha" required><br><br>
+
+        <label id="status"><strong>Status:</strong></label required>
+        <select id="status">
+            <option>Inativo</option>
+            <option>Ativo</option>
+            <br>
+        </select>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Tipo</legend>
+            <input type="radio" id="tecnico" name="tecnico">
+            <label id="tecnico">Técnico</label>
+        <input type="radio" id="prof" name="professor">
+        <label id="prof">Professor</label>
+        <input type="radio" id="aluno" name="aluno">
+        <label id="aluno">Aluno</label>
+        </fieldset>
+        <br>
+        <label id="text2" id="datanasc"><strong>Data de criação: </strong></label>
+        <input type="date" id="datadenascimento" placeholder="Data de criação">
+        <br>
+        <br>
+        <fieldset>
+            <legend>Perfil</legend required>
+            <input type="radio" id="convidado" name="convidado">
+            <label id="convidado">Convidado(a)</label>
+            <input type="radio" id="adm" name="administrador">
+            <label id="adm">Administrador(a)</label>
+        </fieldset>
+        <br>
+        <label id="info"><strong>Observações:</strong></label></label>
+        <br>
+        <textarea id="info" placeholder="Insira as observações " style="width: 500px; height: 100px"></textarea>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Módulos</legend>
+            <input type="radio" id="compras" name="compras">
+            <label id="tecnico">Compras</label>
+            <input type="radio" id="biblioteca" name="biblioteca">
+            <label id="biblioteca">Biblioteca</label>
+            <input type="radio" id="academico" name="academico">
+            <label id="academico">Acadêmico</label>
+            <br>
+            <br>
+            <input type="radio" id="documentacao">
+            <label id="documentacao">Documentação</label>
+            <input type="radio" id="rh">
+            <label id="rh">Recursos humanos</label>
+        </fieldset>
+        <br>
+        <br>
+        <button type="submit">Cadastrar</button>
+        <button type="submit">Excluir</button>
+    </form>
+
+</body>
+
+</html>
