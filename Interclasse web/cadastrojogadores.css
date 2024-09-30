@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px; /* Tamanho máximo do formulário */
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%; /* Largura total do contêiner */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Para incluir padding no total da largura */
+}
+
+input[type="checkbox"] {
+    margin-right: 5px; /* Espaçamento entre checkbox e texto */
+}
+
+.btn-primary {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.2s, transform 0.1s;
+    width: 100%; /* Botão ocupa toda a largura do contêiner */
+    margin-top: 10px; /* Espaço acima do botão */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-primary:active {
+    transform: translateY(2px);
+}

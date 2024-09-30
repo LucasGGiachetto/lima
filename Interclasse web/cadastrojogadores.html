@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de jogadores | Interclasse</title>
+    <link rel="stylesheet" href="cadastrojogadores.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Jogadores</h1>
+        <form>
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Nome" required>
+            </div>
+            <div class="form-group">
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" placeholder="Idade" required>
+            </div>
+            <div class="form-group">
+                <label for="turma">Turma:</label>
+                <input type="text" id="turma" placeholder="Turma" required>
+            </div>
+            <div class="form-group">
+                <label>Modalidade(s):</label>
+                <label>
+                    <input type="checkbox" name="modalidade1" value="badminton"> Badminton
+                </label>
+                <label>
+                    <input type="checkbox" name="modalidade2" value="damas"> Damas
+                </label>
+                <label>
+                    <input type="checkbox" name="modalidade3" value="xadrez"> Xadrez
+                </label>
+                <label>
+                    <input type="checkbox" name="modalidade4" value="society"> Futebol Society
+                </label>
+                <label>
+                    <input type="checkbox" name="modalidade5" value="futmesa"> Futmesa
+                </label>
+                <label>
+                    <input type="checkbox" name="modalidade6" value="Vôlei-masc"> Vôlei masculino
+                </label>
+                <label>
+                    <input type="checkbox" name="modalidade7" value="Vôlei-fem"> Vôlei feminino
+                </label>
+                <label>
+                    <input type="checkbox" name="modalidade8" value="Vôlei-misto"> Vôlei misto
+                </label>
+                <label>
+                    <input type="checkbox" name="modalidade8" value="pingpong"> PingPong
+                </label>
+                <label>
+                    <input type="checkbox" name="modalidade9" value="piquebandeira"> Pique-bandeira
+                </label>
+                <label>
+                    <input type="checkbox" name="modalidade10" value="Futsal-masc"> Futsal masculino 
+                </label>
+                <label>
+                    <input type="checkbox" name="modalidade11" value="futsal-fem"> Futsal feminino
+                </label>
+
+            </div>
+            <button class="btn btn-primary btn-block" type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
