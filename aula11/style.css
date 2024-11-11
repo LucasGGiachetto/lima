@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(214, 208, 208);
+}
+
+header{
+    width: 100vw;
+
+    & .container{
+        background: rgb(176, 9, 9);
+        display: flex;
+        padding: 1vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    & .titulo{
+        width: 20vw;
+
+        & h1{
+            color: white;
+            font-size: 1.5vw;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+    }
+
+    & .links{
+        width: 33vw;
+
+        & a{
+            text-decoration: none;
+            color: white;
+            font-size: 1.5vw;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 1vw;
+        }
+
+    }
+
+    & .sociais{
+        width: 15vw;
+
+        & a{
+            text-decoration: none;
+            font-size: 2vw;
+            margin: 1vw;
+            color: black;
+            background: white;
+            padding: 0.5vw;
+            border-radius: 1vw;
+            height: 2vw;
+            width: 2vw;
+        }
+
+        & a:hover{
+            text-decoration: none;
+            font-size: 1.5vw;
+            margin: 1vw;
+            cursor: pointer;
+            color: white;
+            background: gray;
+            padding: 0.8vw;
+            border-radius: 1vw;
+            height: 2vh;
+            width: 2vw;
+
+        }
+    }
+}
+
+main{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    & .banner img{
+        width: 80vw;
+        height: 70vh;
+        border-radius: 5vw;
+        box-shadow: 0.2vw 0.2vw 1vw black;
+
+    }
+    }
+
+    .cards{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2vw;
+
+        & div1, div2, div{
+            width: 20vw;
+            height: 20vw;
+            margin: 1vw;
+            border-radius: 2vw;
+            box-shadow: 0.2vw 0.2vw 1vw black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: white;
+        }
+    }
